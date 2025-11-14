@@ -41,3 +41,4 @@ def main():
     print(f"最低分數: {lowest_score}")
 if __name__ == "__main__":
     main()
+# scorecod.py end
