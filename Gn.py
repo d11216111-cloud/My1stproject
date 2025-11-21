@@ -1,5 +1,7 @@
 # 猜數字遊戲
-import random  
+import random
+
+
 def guess_number_game():
     number_to_guess = random.randint(1, 100)
     attempts = 0
@@ -25,6 +27,8 @@ def guess_number_game():
                 break
         except ValueError:
             print("請輸入一個有效的數字或 'exit' 離開遊戲。")
+
+
 if __name__ == "__main__":
     guess_number_game()
     #Gn.py end
