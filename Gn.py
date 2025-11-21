@@ -9,15 +9,15 @@ def guess_number_game():
 
     while True:
         user_input = input("請輸入你的猜測（或輸入 'exit' 離開遊戲）：")
-        
+
         if user_input.lower() == 'exit':
             print(f"遊戲結束！正確的數字是 {number_to_guess}。")
             break
-        
+
         try:
             guess = int(user_input)
             attempts += 1
-            
+
             if guess < number_to_guess:
                 print("小了")
             elif guess > number_to_guess:
@@ -31,4 +31,4 @@ def guess_number_game():
 
 if __name__ == "__main__":
     guess_number_game()
-    #Gn.py end
+    # Gn.py end
